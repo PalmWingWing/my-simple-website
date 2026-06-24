@@ -31,7 +31,7 @@ jobs:
         uses: azure/container-apps-deploy-action@v1
         with:
           appSourcePath: ${{ github.workspace }}/src
-          acrName: mysimplewebsite
+          acrName: mysimplewebite
           containerAppName: my-simple-website
           resourceGroup: ODL-ASIA-2265842
 
