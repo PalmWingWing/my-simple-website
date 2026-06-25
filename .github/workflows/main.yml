@@ -33,6 +33,7 @@ jobs:
           appSourcePath: ${{ github.workspace }}
           dockerfilePath: Dockerfile
           acrName: mysimplewebite
+          acrUsername: ${{ secrets.ACR_USERNAME }}
+          acrPassword: ${{ secrets.ACR_PASSWORD }}
           containerAppName: my-simple-website
           resourceGroup: ODL-ASIA-2265842
-
