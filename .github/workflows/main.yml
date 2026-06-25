@@ -6,9 +6,9 @@ on:
   workflow_dispatch:
 
 env:
-  APP_NAME: myapp
+  APP_NAME: my-simple-website
   RESOURCE_GROUP: ODL-ASIA-2265842
-  IMAGE_NAME: myapp
+  IMAGE_NAME: mysimplewebite.azurecr.io/mysimplewebsite
 
 jobs:
   build-and-deploy:
