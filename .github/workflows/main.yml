@@ -21,7 +21,8 @@ jobs:
       - name: Build and deploy Container App
         uses: azure/container-apps-deploy-action@v1
         with:
-          appSourcePath: ${{ github.workspace }}/src
+          appSourcePath: ${{ github.workspace }}
+          dockerfilePath: Dockerfile
           acrName: mysimplewebite
           containerAppName: my-simple-website
           resourceGroup: ODL-ASIA-2265842
