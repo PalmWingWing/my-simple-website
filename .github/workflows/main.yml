@@ -33,9 +33,9 @@ jobs:
         with:
           appSourcePath: ${{ github.workspace }}
           dockerfilePath: Dockerfile
-          acrName: mysimplewebite
-          acrUsername: ${{ secrets.ACR_USERNAME }}
-          acrPassword: ${{ secrets.ACR_PASSWORD }}
+          registryUrl: mysimplewebite.azurecr.io
+          registryUsername: ${{ secrets.ACR_USERNAME }}
+          registryPassword: ${{ secrets.ACR_PASSWORD }}
           imageToBuild: mysimplewebite.azurecr.io/my-simple-website:${{ github.run_id }}.${{ github.run_attempt }}
           containerAppName: my-simple-website
           resourceGroup: ODL-ASIA-2265842
