@@ -1,0 +1,8 @@
+{
+  "name": "my-simple-website",
+  "private": true,
+  "workspaces": ["frontend"],
+  "version": "1.0.0",
+  "description": "Monorepo for my simple website",
+  "license": "MIT"
+}
