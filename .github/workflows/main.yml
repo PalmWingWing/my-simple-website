@@ -6,7 +6,7 @@ on:
       - main          # trigger เฉพาะตอนเปิด/อัปเดต PR เข้า main
 
 env:
-  IMAGE_NAME: mysimplewebite.azurecr.io/mysimplewebsite                    # แก้เป็นชื่อ image ของคุณ
+  IMAGE_NAME: my-simple-website                    # แก้เป็นชื่อ image ของคุณ
   AZURE_WEBAPP_NAME: mysimplewebsite   # แก้เป็นชื่อ App Service จริง
 
 jobs:
